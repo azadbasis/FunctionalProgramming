@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="Kotlin provides various ways to express functions, Here are some alternative steps to express functions in Kotlin">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="Kotlin provides various Lambda Expressions:functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/basicFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/basicFunctions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lambda" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,9 +51,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.BasicFunctionsKt.executor": "Run",
+    "Kotlin.LambdaFunctionsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "basic",
+    "git-widget-placeholder": "lambda",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt"
   }
@@ -92,14 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720944557795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Kotlin provides various Lambda Expressions:functions">
+      <option name="closed" value="true" />
+      <created>1720969311953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720969311953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="We start learning functional program!" />
     <MESSAGE value="Merge main branch" />
     <MESSAGE value="Kotlin provides various ways to express functions, Here are some alternative steps to express functions in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin provides various ways to express functions, Here are some alternative steps to express functions in Kotlin" />
+    <MESSAGE value="Kotlin provides various Lambda Expressions:functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin provides various Lambda Expressions:functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
