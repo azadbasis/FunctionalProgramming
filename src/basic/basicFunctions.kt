@@ -3,6 +3,7 @@ package basic
 fun permitEntrance1(age: Int): Boolean {
     return age >= 18
 }
+
 fun greetings1(msg: String) {
     println("$msg, you are welcome here!")
 }
@@ -22,6 +23,11 @@ fun greetings3(msg: String) = println("$msg, you are welcome here!")
 /*Lambda Expressions:*/
 val permitEntranceLambda1: (Int) -> Boolean = { age -> age >= 18 }
 val permitEntranceLambda2: (Int) -> Boolean = { it >= 18 }
+val permitEntranceLambda3: (Int) -> Boolean =
+    ::permitEntrance1/*The :: operator in Kotlin is called the callable reference operator. It is used to refer to functions, properties, and constructors by their names. */
+val tryLambda = { it: Int -> it >= 18 }
+val tryLambda1:(Int)->Boolean = { it: Int -> it >= 18 }
+
 val greetingsLambda: (String) -> Unit = { msg -> println("$msg, you are welcome here!") }
 
 /*Anonymous Functions:*/
@@ -46,6 +52,7 @@ fun checkEntrance(age: Int, permit: (Int) -> Boolean): Boolean {
 fun welcomeMessage(msg: String, greet: (String) -> Unit) {
     greet(msg)
 }
+
 fun main() {
 
     val granted = permitEntrance1(10)
@@ -55,6 +62,7 @@ fun main() {
     /*Lambda Expressions:*/
     println(permitEntranceLambda1(16))
     greetingsLambda("Lambda Expressions:")
+    println(" try=${tryLambda(87)}")
     /*Anonymous Functions:*/
     println(permitEntranceAnon(20))
     greetingsAnon("Anonymous Functions:")
