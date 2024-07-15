@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="The goal is to demonstrate how to convert these functions into equivalent lambda expressions.">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="covering various ways to define the same lambda expressions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambdaFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambdaFunctions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
   "keyToString": {
     "Kotlin.BasicFunctionsKt.executor": "Run",
     "Kotlin.LambdaFunctionsKt.executor": "Run",
+    "Kotlin.LambdaUses1Kt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "lambda",
@@ -118,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720982207091</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="covering various ways to define the same lambda expressions.">
+      <option name="closed" value="true" />
+      <created>1721022640887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721022640887</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,7 +135,8 @@
     <MESSAGE value="Kotlin provides various ways to express functions, Here are some alternative steps to express functions in Kotlin" />
     <MESSAGE value="Kotlin provides various Lambda Expressions:functions" />
     <MESSAGE value="The goal is to demonstrate how to convert these functions into equivalent lambda expressions." />
-    <option name="LAST_COMMIT_MESSAGE" value="The goal is to demonstrate how to convert these functions into equivalent lambda expressions." />
+    <MESSAGE value="covering various ways to define the same lambda expressions." />
+    <option name="LAST_COMMIT_MESSAGE" value="covering various ways to define the same lambda expressions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
