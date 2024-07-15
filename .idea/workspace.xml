@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="Kotlin provides various Lambda Expressions:functions">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="The goal is to demonstrate how to convert these functions into equivalent lambda expressions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambdaFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambdaFunctions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,21 +28,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "azadbasis"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;azadbasis&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/azadbasis/FunctionalProgramming",
-    "accountId": "f54e30e4-78d2-4b60-b3a0-c2759573420a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/azadbasis/FunctionalProgramming&quot;,
+    &quot;accountId&quot;: &quot;f54e30e4-78d2-4b60-b3a0-c2759573420a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2jDsiKuteV2OovmrcCAvLgrni7O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,7 +57,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "lambda",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt"
+    "onboarding.tips.debug.path": "D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,7 +102,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720969311953</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The goal is to demonstrate how to convert these functions into equivalent lambda expressions.">
+      <option name="closed" value="true" />
+      <created>1720982198912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720982198912</updated>
+    </task>
+    <task id="LOCAL-00006" summary="The goal is to demonstrate how to convert these functions into equivalent lambda expressions.">
+      <option name="closed" value="true" />
+      <created>1720982207091</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720982207091</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,7 +126,8 @@
     <MESSAGE value="Merge main branch" />
     <MESSAGE value="Kotlin provides various ways to express functions, Here are some alternative steps to express functions in Kotlin" />
     <MESSAGE value="Kotlin provides various Lambda Expressions:functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin provides various Lambda Expressions:functions" />
+    <MESSAGE value="The goal is to demonstrate how to convert these functions into equivalent lambda expressions." />
+    <option name="LAST_COMMIT_MESSAGE" value="The goal is to demonstrate how to convert these functions into equivalent lambda expressions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
