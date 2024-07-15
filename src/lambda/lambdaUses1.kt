@@ -1,5 +1,5 @@
 package lambda
-
+/* https://developer.android.com/codelabs/basic-android-kotlin-compose-function-types-and-lambda#1 */
 fun main(){
 //val  trickFunction= trick()
     /* todo The :: operator in Kotlin is called the callable reference operator.

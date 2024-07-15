@@ -8,7 +8,6 @@ fun main(){
     treatFunction()
     trickFunction()
 
-
 }
 
 fun treatsOrTrick(isTrick:Boolean):()->Unit{
@@ -18,5 +17,5 @@ fun treatsOrTrick(isTrick:Boolean):()->Unit{
         return trick
 }
 
-val treats = { println("Have a treat!") }
-val trick:()->Unit = { println("No treats") }
+private val treats = { println("Have a treat!") }
+private val trick:()->Unit = { println("No treats") }

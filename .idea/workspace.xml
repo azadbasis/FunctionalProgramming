@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="callable reference operator &amp; lambda function use with higher order function.">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="lambda function call indirectly using higher order function.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambdaUses1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambdaUses1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambdaUses2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambdaUses2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
     "Kotlin.LambdaFunctionsKt.executor": "Run",
     "Kotlin.LambdaUses1Kt.executor": "Run",
     "Kotlin.LambdaUses2Kt.executor": "Run",
+    "Kotlin.LambdaUses3Kt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "lambda",
@@ -143,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721033199882</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lambda function call indirectly using higher order function.">
+      <option name="closed" value="true" />
+      <created>1721053196519</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721053196519</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lambda function call indirectly using higher order function.">
+      <option name="closed" value="true" />
+      <created>1721053202136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721053202136</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,7 +173,8 @@
     <MESSAGE value="The goal is to demonstrate how to convert these functions into equivalent lambda expressions." />
     <MESSAGE value="covering various ways to define the same lambda expressions." />
     <MESSAGE value="callable reference operator &amp; lambda function use with higher order function." />
-    <option name="LAST_COMMIT_MESSAGE" value="callable reference operator &amp; lambda function use with higher order function." />
+    <MESSAGE value="lambda function call indirectly using higher order function." />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda function call indirectly using higher order function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
