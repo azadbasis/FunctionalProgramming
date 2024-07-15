@@ -31,8 +31,8 @@ fun trick(){
 }
 
 //with the lambda expression , I can store function directly in the variable without using a function reference.
-val  trickLambda={ println("No tricks!")}
+private val  trickLambda={ println("No tricks!")}
 
-val treat:()->Unit={
+private val treat:()->Unit={
     println("Have a treat!")
 }

@@ -9,7 +9,7 @@ fun main() {
     trickFunction()
 }
 
-fun treatOrTrick(isTrick: Boolean, extraTreat: (Int) -> String): () -> Unit {
+private fun treatOrTrick(isTrick: Boolean, extraTreat: (Int) -> String): () -> Unit {
     if (isTrick) {
         println(extraTreat(5))
         return trick
