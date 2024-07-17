@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment=" 1. Lambda expression use directly into the function&#10; 2. Use trailing lambda when lambda is a last parameter&#10; 3.Repeat (Higher order) function is a concise way to express for loop">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="practice lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/lambdaDayOne.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/lambdaDayOne.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,7 @@
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "lambda",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
@@ -187,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721060006255</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="practice lambda">
+      <option name="closed" value="true" />
+      <created>1721182372343</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721182372343</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,7 +212,8 @@
     <MESSAGE value="Define function as a parameter using higher order function." />
     <MESSAGE value="Higher order function make function nullable type." />
     <MESSAGE value=" 1. Lambda expression use directly into the function&#10; 2. Use trailing lambda when lambda is a last parameter&#10; 3.Repeat (Higher order) function is a concise way to express for loop" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 1. Lambda expression use directly into the function&#10; 2. Use trailing lambda when lambda is a last parameter&#10; 3.Repeat (Higher order) function is a concise way to express for loop" />
+    <MESSAGE value="practice lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,7 +4,7 @@ import kotlin.math.min
 import kotlin.math.pow
 
 //todo:1 Standard function definition with a block body:
-fun double(x: Int): Int {
+private fun double(x: Int): Int {
     return 2 * x
 }
 
