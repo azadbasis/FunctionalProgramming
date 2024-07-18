@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="practice lambda">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="Practice(covered almost all the different ways to express named functions in Kotlin)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/lambdaDayOne.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/lambdaDayOne.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.BasicFunctionsKt.executor": "Run",
-    "Kotlin.LambdaDayOneKt.executor": "Run",
-    "Kotlin.LambdaFunctionsKt.executor": "Run",
-    "Kotlin.LambdaUses1Kt.executor": "Run",
-    "Kotlin.LambdaUses2Kt.executor": "Run",
-    "Kotlin.LambdaUses3Kt.executor": "Run",
-    "Kotlin.LambdaUses4Kt.executor": "Run",
-    "Kotlin.LambdaUses5Kt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lambda",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.BasicFunctionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaDayOneKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaFunctionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaUses1Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaUses2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaUses3Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaUses4Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaUses5Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lambda&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -197,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721182372343</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Practice(covered almost all the different ways to express named functions in Kotlin)">
+      <option name="closed" value="true" />
+      <created>1721190230196</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721190230196</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,7 +220,8 @@
     <MESSAGE value="Higher order function make function nullable type." />
     <MESSAGE value=" 1. Lambda expression use directly into the function&#10; 2. Use trailing lambda when lambda is a last parameter&#10; 3.Repeat (Higher order) function is a concise way to express for loop" />
     <MESSAGE value="practice lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice lambda" />
+    <MESSAGE value="Practice(covered almost all the different ways to express named functions in Kotlin)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice(covered almost all the different ways to express named functions in Kotlin)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
