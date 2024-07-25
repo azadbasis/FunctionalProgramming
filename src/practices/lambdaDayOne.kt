@@ -30,7 +30,7 @@ private val doubleL4: (Int) -> Int = { x: Int -> 2 * x }
 private val doubleL5: (Int) -> Int = ::double
 
 
-fun powerOf(number: Int, exponent: Int): Int {
+private fun powerOf(number: Int, exponent: Int): Int {
     // Implementation here
     return number.toDouble().pow(exponent).toInt()
 }
@@ -44,7 +44,7 @@ private val powerOfL2:(Int,Int)->Int = { number: Int, exponent: Int ->number.toD
 private val powerOfL3:(Int,Int)->Int = { number, exponent -> number.toDouble().pow(exponent).toInt() }
 private val powerOfL4:(Int,Int)->Int = ::powerOf
 
-fun read(b: ByteArray, off: Int = 0, len: Int = b.size) {
+private fun read(b: ByteArray, off: Int = 0, len: Int = b.size) {
     for (i in off until min(off + len, b.size)) {
         val byteValue = b[i]
         println("Byte at index $i: $byteValue")
@@ -77,7 +77,7 @@ private  val readL2:(ByteArray,Int,Int)->Unit = { b,off,len->
 }
 private  val readL3:(ByteArray,Int,Int)->Unit = ::read
 
-fun reformat(
+private fun reformat(
     str: String,
     normalizeCase: Boolean = true,
     upperCaseFirstLetter: Boolean = true,
@@ -120,7 +120,7 @@ private val reformatL2:(String,Boolean,Boolean,Boolean,Char)->Unit={str,normaliz
 }
 private val reformatL3=::reformat
 
-fun foo(
+private fun foo(
     bar: Int = 0,
     baz: Int = 1,
     qux: () -> Unit

@@ -26,7 +26,7 @@ val permitEntranceLambda2: (Int) -> Boolean = { it >= 18 }
 val permitEntranceLambda3: (Int) -> Boolean =
     ::permitEntrance1/*The :: operator in Kotlin is called the callable reference operator. It is used to refer to functions, properties, and constructors by their names. */
 val tryLambda = { it: Int -> it >= 18 }
-val tryLambda1:(Int)->Boolean = { it: Int -> it >= 18 }
+val tryLambda1: (Int) -> Boolean = { it: Int -> it >= 18 }
 
 val greetingsLambda: (String) -> Unit = { msg -> println("$msg, you are welcome here!") }
 
@@ -52,6 +52,14 @@ fun checkEntrance(age: Int, permit: (Int) -> Boolean): Boolean {
 fun welcomeMessage(msg: String, greet: (String) -> Unit) {
     greet(msg)
 }
+
+//todo: vararg
+
+fun permitEntrance(vararg ages: Int): Boolean {
+    return ages.any { age -> age > 18 }
+}
+fun permitEntrance1(vararg ages: Int): Boolean = ages.any { age -> age > 18 }
+val entrance=::permitEntrance
 
 fun main() {
 
@@ -82,4 +90,10 @@ fun main() {
 
     // You can also use lambda expressions or anonymous functions
     welcomeMessage("Lambda", { println("$it, you are welcome here!") })
+    welcomeMessage("Lambda") {
+        println("$it, you are welcome here!")
+    }
+
+    println("Permit entrance: ${permitEntrance(23,45,67)}")
+    println("Permit entrance: ${permitEntrance(3,56)}")
 }
