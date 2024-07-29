@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="all practice file in kotlin">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="Fixed Argument  &amp; Flexible Argument Inline Function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inlines/InlineFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inlines/InlineFunctions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,9 @@
     "Kotlin.GenericDayOneKt.executor": "Run",
     "Kotlin.GenericFunctionsKt.executor": "Run",
     "Kotlin.HigherOrderFunctionsKt.executor": "Run",
+    "Kotlin.InlineCrossImlineNoInlineKt.executor": "Run",
+    "Kotlin.InlineCrossInlineNoInline2Kt.executor": "Run",
+    "Kotlin.InlineCrossInlineNoInlineKt.executor": "Run",
     "Kotlin.InlineFunctionsKt.executor": "Run",
     "Kotlin.InlineFunctionsOneKt.executor": "Run",
     "Kotlin.LambdaDayFourKt.executor": "Run",
@@ -284,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721876410008</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fixed Argument  &amp; Flexible Argument Inline Function">
+      <option name="closed" value="true" />
+      <created>1722225260775</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722225260775</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,7 +318,8 @@
     <MESSAGE value="Generic functions in kotlin" />
     <MESSAGE value="Inline functions in kotlin" />
     <MESSAGE value="all practice file in kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="all practice file in kotlin" />
+    <MESSAGE value="Fixed Argument  &amp; Flexible Argument Inline Function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Argument  &amp; Flexible Argument Inline Function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
