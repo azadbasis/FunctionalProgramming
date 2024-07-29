@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="Generic functions in kotlin" />
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="all practice file in kotlin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inlines/InlineFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inlines/InlineFunctions.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +62,7 @@
     "Kotlin.GenericFunctionsKt.executor": "Run",
     "Kotlin.HigherOrderFunctionsKt.executor": "Run",
     "Kotlin.InlineFunctionsKt.executor": "Run",
+    "Kotlin.InlineFunctionsOneKt.executor": "Run",
     "Kotlin.LambdaDayFourKt.executor": "Run",
     "Kotlin.LambdaDayOneKt.executor": "Run",
     "Kotlin.LambdaFunctionsKt.executor": "Run",
@@ -264,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721876047860</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Inline functions in kotlin">
+      <option name="closed" value="true" />
+      <created>1721876225678</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721876225678</updated>
+    </task>
+    <task id="LOCAL-00024" summary="all practice file in kotlin">
+      <option name="closed" value="true" />
+      <created>1721876410008</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721876410008</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,7 +306,9 @@
     <MESSAGE value="Higher order functions with filter" />
     <MESSAGE value="Extensions functions in kotlin" />
     <MESSAGE value="Generic functions in kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic functions in kotlin" />
+    <MESSAGE value="Inline functions in kotlin" />
+    <MESSAGE value="all practice file in kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="all practice file in kotlin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
