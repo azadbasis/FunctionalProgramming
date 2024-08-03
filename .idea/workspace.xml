@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="when to use where keyword in kotlin?">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="when to use reified keyword in kotlin?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/where/WhereUses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/where/WhereUses.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="reified" />
+        <entry key="$PROJECT_DIR$" value="noInlines" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,12 +75,13 @@
     "Kotlin.LambdaUses5Kt.executor": "Run",
     "Kotlin.LambdasHigherorderFunctionsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.NoInlinesKt.executor": "Run",
     "Kotlin.ParameterFunctionKt.executor": "Run",
     "Kotlin.ReifiedsKt.executor": "Run",
     "Kotlin.WhereUsesKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "reified",
+    "git-widget-placeholder": "noInlines",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt",
@@ -321,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722250513752</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="when to use reified keyword in kotlin?">
+      <option name="closed" value="true" />
+      <created>1722664155435</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1722664155435</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -348,7 +356,8 @@
     <MESSAGE value="Fixed Argument  &amp; Flexible Argument Inline Function" />
     <MESSAGE value=" Inline Function, NoInline Function &amp; CrossInline Function" />
     <MESSAGE value="when to use where keyword in kotlin?" />
-    <option name="LAST_COMMIT_MESSAGE" value="when to use where keyword in kotlin?" />
+    <MESSAGE value="when to use reified keyword in kotlin?" />
+    <option name="LAST_COMMIT_MESSAGE" value="when to use reified keyword in kotlin?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
