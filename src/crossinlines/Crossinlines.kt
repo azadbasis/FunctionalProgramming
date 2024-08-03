@@ -24,3 +24,9 @@ inline fun doSomethingElse(crossinline lambda: () -> Unit) {
 fun main() {
     doSomething()
 }
+
+/*
+* Consider the following scenario: You have an inline function that takes a lambda as a parameter.
+* Without the crossinline modifier, the lambda could potentially use non-local returns, which might not be the desired behavior.
+* The crossinline modifier ensures that the lambda cannot perform such non-local returns.
+* */
