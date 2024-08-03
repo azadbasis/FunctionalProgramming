@@ -9,11 +9,11 @@ fun doSomething() {
     }
     println("After lambda")
 
-  doSomethingWithNoInline({
-      println("Do with inline")
-  },{
-      println("Do with no inline")
-  })
+    doSomethingWithNoInline({
+        println("Do with inline")
+    }, {
+        println("Do with no inline")
+    })
 }
 //todo Prevent Non-Local Returns:
 // In Kotlin, the crossinline modifier is used in the context of inline functions to prevent non-local returns from a lambda parameter.
@@ -29,7 +29,7 @@ Function composition: When you need to combine or store lambdas.
 Callbacks: When passing lambdas as callbacks to other functions or APIs.
 Avoiding code bloat: When the lambda code is large, and inlining would result in significant code duplication.
 *  */
-inline fun doSomethingWithNoInline( f1: () -> Unit, noinline f2: () -> Unit) {
+inline fun doSomethingWithNoInline(f1: () -> Unit, noinline f2: () -> Unit) {
     f1()
     f2.invoke()
 }
