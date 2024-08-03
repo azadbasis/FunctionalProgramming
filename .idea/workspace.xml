@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment=" Inline Function, NoInline Function &amp; CrossInline Function">
+    <list default="true" id="c5d27ebc-eb21-4103-9df5-0ec645a7c546" name="Changes" comment="when to use where keyword in kotlin?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/where/WhereUses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/where/WhereUses.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="where" />
+        <entry key="$PROJECT_DIR$" value="reified" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,14 +77,15 @@
     "Kotlin.LambdasHigherorderFunctionsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.ParameterFunctionKt.executor": "Run",
+    "Kotlin.ReifiedsKt.executor": "Run",
     "Kotlin.WhereUsesKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "where",
+    "git-widget-placeholder": "reified",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/MobileApplication/Kotlin/FunctionalProgramming/FunctionalPrograming/src/Main.kt",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -303,7 +305,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722241965022</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="when to use where keyword in kotlin?">
+      <option name="closed" value="true" />
+      <created>1722250506753</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722250506753</updated>
+    </task>
+    <task id="LOCAL-00028" summary="when to use where keyword in kotlin?">
+      <option name="closed" value="true" />
+      <created>1722250513752</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722250513752</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,7 +347,8 @@
     <MESSAGE value="all practice file in kotlin" />
     <MESSAGE value="Fixed Argument  &amp; Flexible Argument Inline Function" />
     <MESSAGE value=" Inline Function, NoInline Function &amp; CrossInline Function" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Inline Function, NoInline Function &amp; CrossInline Function" />
+    <MESSAGE value="when to use where keyword in kotlin?" />
+    <option name="LAST_COMMIT_MESSAGE" value="when to use where keyword in kotlin?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

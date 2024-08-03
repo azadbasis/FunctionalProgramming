@@ -22,7 +22,11 @@ class Document : Printable, Savable {
     }
 }
 
-fun <T> handleDocument(doc: T) where T : Printable, T : Savable {
+fun <T> handleDocument(doc: T) where T : Printable, T : Savable  {
+    doc.print()
+    doc.save()
+}
+fun handleDocument1(doc:Document){
     doc.print()
     doc.save()
 }
@@ -30,7 +34,14 @@ fun <T> handleDocument(doc: T) where T : Printable, T : Savable {
 fun main() {
     val doc = Document()
     handleDocument(doc)  // This will print and save the document
+   handleDocument1(doc)
 }
 //todo: summary
 //This is particularly useful in generic programming,
 // where you may need to enforce that a type parameter conforms to multiple interfaces or base classes.
+
+/*
+* Summary
+handleDocument(doc) is more flexible and can accept any type that conforms to both Printable and Savable interfaces, not just Document.
+handleDocument1(doc) is specific to the Document class and can't handle other types, even if they implement Printable and Savable.
+* */
